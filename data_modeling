@@ -1,0 +1,19 @@
+# This program is a spotify playlist model. It compiles the playlist into a dictionary and utilises a for loop to calculate 
+# the total length in minutes of the playlist.
+
+playlist = {
+    'title': 'Austin', 
+    'author': 'Christian Rojas', 
+    'songs': [
+        {'title': 'Run', 'artist': ['Joji'], 'duration': 4.1},
+        {'title': 'Sunrise', 'artist': ['Fallbrook'], 'duration': 3.4},
+        {'title': 'Less I Know The Better', 'artist': ['Tame Impala'], 'duration': 7.2}
+    ]
+}
+
+# Calculate the total length of the playlist in minutes
+total_length = 0
+for song in playlist['songs']:
+    total_length += song['duration']
+    
+print(total_length)
