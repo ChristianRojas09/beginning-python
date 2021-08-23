@@ -1,2 +1,2 @@
-# beginning-python
-This repository shows my first python projects
+#Python
+This repository shows my first python projects.
